@@ -1,0 +1,39 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(to right, #ffeb3b, #2196f3);
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+}
+nav .bi:hover, .nav-link:hover{
+    color: #ffeb3b;
+    transition: all .3s;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+.nav-link i {
+    margin-right: 5px;
+}

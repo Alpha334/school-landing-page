@@ -1,68 +1,47 @@
 body {
-    background-color: #fefefe;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(to right, #ffeb3b, #2196f3);
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
 }
 
-/* Navbar */
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  }
-  .navbar-brand {
-    color: #4a90e2;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .nav-link {
-    color: #444;
-    font-size: 1rem;
-    margin-right: 1rem;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-  }
-  .nav-link:hover {
-    background-color: #f3f3f3;
-  }
-  .btn-enroll {
-    background-color: rgb(255, 217, 0);
-    color: #000;
-    font-weight: bold;
-    border: none;
-    padding: 0.5rem 1.2rem;
-    border-radius: 20px;
-  }
-    /* Hero section */
-.hero-section {
-    padding: 5rem 2rem;
-    background-color: #fefefe;
-    text-align: center;
-    position: relative;
+.hero-pic{
+    background-image: url('2025-05-06_14-16-30.jpg');
+    background-size: cover; 
+    background-position: center;
+    z-index: 1;
 }
-.hero-title {
-    color: #4a90e2;
+
+nav .bi:hover, .nav-link:hover{
+    color: #ffeb3b;
+    transition: all .3s;
+}
+.hero h1 {
     font-size: 3rem;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #fff;
+    color: #007bff;
     font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 30px;
 }
-.hero-subtitle {
-    color: #444;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+.nav-link i {
+    margin-right: 5px;
 }
-.btn-enroll {
-    background-color: rgb(255, 217, 0);
-    color: #000;
-    font-weight: bold;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 30px;
-}
-.icon-bubble {
-    font-size: 2rem;
-    color: rgb(255, 217, 0);
-    position: absolute;
-    opacity: 0.8;
-}
-.icon1 { top: 20px; left: 30px; }
-.icon2 { top: 60px; right: 40px; }
-.icon3 { bottom: 30px; left: 50px; }
-.icon4 { bottom: 20px; right: 30px; }
